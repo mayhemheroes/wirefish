@@ -1,0 +1,6 @@
+project: wirefish
+target: wirefish-fuzz
+
+cmds:
+    - cmd: ./wirefish-fuzz
+      libfuzzer: true
