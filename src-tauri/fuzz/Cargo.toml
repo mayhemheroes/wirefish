@@ -20,7 +20,7 @@ path = "../sniffer_parser"
 members = ["."]
 
 [[bin]]
-name = "wirefish-fuzzer"
+name = "wirefish-fuzz"
 path = "fuzz_targets/wirefish-fuzz.rs"
 test = false
 doc = false
