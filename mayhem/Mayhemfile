@@ -1,0 +1,9 @@
+project: wirefish
+target: wirefish-fuzz
+
+testsuite:
+  - file://mayhem/corpus
+
+cmds:
+    - cmd: ./wirefish-fuzz
+      libfuzzer: true
